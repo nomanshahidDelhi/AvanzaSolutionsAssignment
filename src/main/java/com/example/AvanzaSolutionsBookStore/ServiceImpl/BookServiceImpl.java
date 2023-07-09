@@ -23,16 +23,16 @@ public class BookServiceImpl {
 	public List<Books>getAllBooks(){
 		return booksRepo.findAll();
 	}
-	public List<Books>getBooksByCategory(String product_id){
-		return booksRepo.getByCategoryId(product_id);
+	public List<Books>getBooksByCategory(String book_id){
+		return booksRepo.getByCategoryId(book_id);
 	}
 	
 	public List<Category>getAllCategory(){
 		return cateRepo.findAll();
 	}
 	
-	public Books getBooksById(long productId) throws Exception {
-		return booksRepo.findById(productId).orElseThrow(() ->new Exception("Book is not found"));
+	public Books getBooksById(long bookId) throws Exception {
+		return booksRepo.findById(bookId).orElseThrow(() ->new Exception("Book is not found"));
 	}
 }
 
