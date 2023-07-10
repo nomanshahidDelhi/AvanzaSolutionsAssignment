@@ -12,9 +12,11 @@ Postman
 3. For SignIn Mobile number and password is required.
 4. We can add books to cart.
 5. Then finally Checkout order, which returns the total payable amount.
+
+
+
+
    
-
-
 **To see the test coverage:**  
 AvanzaSolutionsBookStore->target->site->jacoco->index.html(open in browser)  
 
