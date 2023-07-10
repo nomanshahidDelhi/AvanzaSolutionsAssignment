@@ -7,6 +7,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,7 +24,7 @@ public class ShoppingCartController {
 	
 	@Autowired
 	CartService cartService;
-	@RequestMapping("addBook")
+	@PostMapping("addBook")
   	public ResponseEntity<?> addCartwithBook(@RequestBody HashMap<String,String> addCartRequest) {
 		try {
 			String keys[] = {"bookId","userId","qty","price"};
@@ -43,7 +44,7 @@ public class ShoppingCartController {
 		
    }
 	
-	@RequestMapping("updateQtyForCart")
+	@PostMapping("updateQtyForCart")
   	public ResponseEntity<?> updateQtyForCart(@RequestBody HashMap<String,String> addCartRequest) {
 		try {
 			String keys[] = {"cartId","userId","qty","price"};
@@ -65,7 +66,7 @@ public class ShoppingCartController {
    }
 	
 	
-	@RequestMapping("removeBookFromCart")
+	@PostMapping("removeBookFromCart")
   	public ResponseEntity<?> removeCartwithBookId(@RequestBody HashMap<String,String> removeCartRequest) {
 		try {
 			String keys[] = {"userId","cartId"};

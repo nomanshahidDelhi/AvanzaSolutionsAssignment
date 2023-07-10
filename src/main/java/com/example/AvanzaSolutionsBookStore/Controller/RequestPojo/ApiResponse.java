@@ -36,36 +36,5 @@ public class ApiResponse {
 	private JSONObject jsonobj=null;
 	HashMap<String,String> data=null;
 	private List<String> errors;
-// 	public ApiResponse( String message, List<String> errors) {
-//	        super();
-//	        this.message = message;
-//	        this.errors = errors;
-//	    }
-// 	
-//		public ApiResponse( HashMap<String,String> data,String token) {
-//		       this.data = data;
-//		       this.token = token;
-//		}
-//		public ApiResponse( JSONArray array,String token) {
-//		       this.array = array;
-//		       
-//		       this.token = token;
-//		}
-//		public ApiResponse( JSONObject jsonobj,String token) {
-//		       this.jsonobj = jsonobj;
-//		       this.token = token;
-//		}
-//	  	public ApiResponse( String token,String message, List<String> errors) {
-//	        super();
-//	        this.token = token;
-//	        this.message = message;
-//	        this.errors = errors;
-//	    }
-//	 
-//	    public ApiResponse( String message, String error) {
-//	        super();
-//	        this.message = message;
-//	        errors = Arrays.asList(error);
-//	    }
 
 }

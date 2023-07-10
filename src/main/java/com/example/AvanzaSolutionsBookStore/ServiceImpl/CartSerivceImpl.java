@@ -68,13 +68,13 @@ public class CartSerivceImpl implements CartService {
 	}
 
 	@Override
-	public Boolean checkTotalAmountAgainstCart(double totalAmount,long userId) {
-		double total_amount =addCartRepo.getTotalAmountByUserId(userId);
-		if(total_amount == totalAmount) {
-			return true;
+	public double checkTotalAmountAgainstCart(long userId) {
+		Long total_amount =addCartRepo.getTotalAmountByUserId(userId);
+		double total = 0.0;
+		if(total_amount!=null) {
+			total = total_amount.doubleValue();
 		}
-		System.out.print("Error from request "+total_amount +" --db-- "+ totalAmount);
-		return false;
+		return total;
 	}
 
 	@Override
