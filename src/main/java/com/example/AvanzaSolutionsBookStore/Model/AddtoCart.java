@@ -33,7 +33,4 @@ public class AddtoCart {
 	@Column(updatable=false, insertable=false)
 	String added_date;
 	
-	@Transient
-	String productName;
-	
 }
