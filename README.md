@@ -15,7 +15,7 @@ Postman
    
 
 
-To see the test coverage:  
+**To see the test coverage: ** 
 AvanzaSolutionsBookStore->target->site->jacoco->index.html(open in browser)  
 
 
