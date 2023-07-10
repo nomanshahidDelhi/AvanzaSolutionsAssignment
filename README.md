@@ -1,7 +1,7 @@
 # AvanzaSolutionsAssignment
 Online Bookstore Shopping Cart  
 
-Softwares Required For Project execution:
+**Softwares Required For Project execution:**  
 Jdk 11
 Maven
 Postman
