@@ -1,10 +1,30 @@
 # AvanzaSolutionsAssignment
-Online Bookstore Shopping Cart
+Online Bookstore Shopping Cart  
+
+Softwares Required For Project execution:
+Jdk 11
+Maven
+Postman
+
+
+1. After cloning the project, build the project using "mvn clean install" command on GIT Bash.
+2. After building Run the project and Login/SignUp by passing appropriate request body in POSTMAN.
+3. For SignIn Mobile number and password is required.
+4. We can add books to cart.
+5. Then finally Checkout order, which returns the total payable amount.
+   
+
+
+To see the test coverage:  
+AvanzaSolutionsBookStore->target->site->jacoco->index.html(open in browser)  
+
+
 
 
 
 
 SignUP URL:
+localhost:8080/api/signup/user
 
 Request:
 {
