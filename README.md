@@ -15,7 +15,7 @@ Postman
    
 
 
-**To see the test coverage: ** 
+**To see the test coverage:**  
 AvanzaSolutionsBookStore->target->site->jacoco->index.html(open in browser)  
 
 
@@ -23,7 +23,7 @@ AvanzaSolutionsBookStore->target->site->jacoco->index.html(open in browser)
 
 
 
-SignUP URL:
+**SignUP URL:**  
 localhost:8080/api/signup/user
 
 Request:
@@ -45,7 +45,7 @@ Response:
 }
 
 
-Login URL:
+**Login URL:**  
 localhost:8080/api/login/user
 
 Request:
@@ -65,8 +65,8 @@ Response:
     "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI4IiwiaWF0IjoxNjg4OTcxNzQ0LCJleHAiOjE2ODk1NzY1NDR9.hebP7hn9PSUgwlbZ3mctSpEVTD8_sEO_GiXkJNBnqmvYrPnzY21bNF_RdlGSrRSyI3c1MipPflkEb148xkPdLw"
 }
 
---------------------------------------------------------------------------------
-Add Books to cart URL:
+
+**Add Books to cart URL:**  
 localhost:8080/api/addtocart/addBook
 
 Request:
@@ -94,8 +94,9 @@ Response:
         "added_date": "2023-07-10 11:21:20"
     }
 ]
-------------------------------------------------
-Checkout Cart URL:
+
+
+**Checkout Cart URL:**  
 
 Request:
 {
