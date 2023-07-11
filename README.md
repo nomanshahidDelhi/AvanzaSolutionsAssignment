@@ -2,9 +2,10 @@
 Online Bookstore Shopping Cart  
 
 **Softwares Required For Project execution:**  
-Jdk 11
-Maven
-Postman
+Jdk 11  
+Maven  
+Postman  
+MySQL  
 
 
 1. After cloning the project, build the project using "mvn clean install" command on GIT Bash.
